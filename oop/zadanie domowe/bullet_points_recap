@@ -1,0 +1,69 @@
+1.keyword class
+class jest slowem kluczowym , uzywamy go  dla definicji klasy
+
+
+2.keyword self
+Ten parametr odnosi się do bieżącej instancji klasy i służy
+ do uzyskiwania dostępu do zmiennych należących do klasy.
+Wewnątrz konstruktora oznacza wskaźnik do właśnie konstruowanego
+ obiektu, wewnątrz innych metod oznacza wskaźnik do obiektu na
+ rzecz którego wywołano metodę.
+
+
+3.metoda vs funkcja
+Każda funkcja zdefiniowana w "ciele" klasy jest nazywana
+"metodą klasy"
+
+
+4.class vs object (jak się przynajmniej Ci wydaje)
+Podczas gdy klasa jest planem, instancja jest kopią klasy z
+rzeczywistymi wartościami, dosłownie obiekt należący do
+określonej klasy.
+
+Innymi słowy, klasa jest jak formularz lub kwestionariusz.
+Definiuje potrzebne informacje. Po wypełnieniu formularza twoja
+konkretna kopia jest instancją klasy; zawiera rzeczywiste
+informacje istotne dla Ciebie.
+
+Możesz wypełnić wiele kopii, aby utworzyć wiele różnych
+ instancji, ale bez formularza jako przewodnika zgubiłbyś się,
+ nie wiedząc, jakie informacje są wymagane.
+ Tak więc, zanim będzie można utworzyć pojedyncze wystąpienia
+  obiektu, musimy najpierw określić, co jest potrzebne,
+  definiując klasę.
+Podstawą obiektu jest klasa,
+która definiuje atrybuty, metody i zdarzenia obiektu.
+
+Klasa jest opisem, definicją. Obiekt jest konkretną zmienną
+zbudowaną i zachowującą się zgodnie z
+definicją klasy.
+
+5.dostęp do metod obiektu (jaki operator służy do wywołania metody na obiekcie)
+Metody wydają instrukcje dotyczące obiektu w celu wykonywania
+zadań
+Dostęp do atrybutów i metod uzyskuje się poprzez wykorzystanie
+ składni z kropkami (.)
+należy zapisać nazwę obiektu, następnie wpisać operator w
+postaci kropki „.” i nazwę metody
+6.dostęp do atrybutu obiektu (jaki operator służy do pobrania atrybutu obiektu, np. atrybutu stan)
+Atrybuty. Atrybuty definiują cechy charakterystyczne, takie
+ jak nazwisko osoby lub kolor jej włosów.
+ W Pythonie można uzyskać dostęp do tytułu atrybutu klasy za pomocą notacji kropkowej.
+7.try, except, raise
+tryBlok pozwala przetestować blok kodu w poszukiwaniu błędów.
+
+exceptBlok pozwala obsłużyć błąd.
+
+ mamy do dyspozycji możliwość tworzenia własnych wyjątków.
+ Własne wyjątki wywołujemy przy użyciu słowa kluczowego „raise”.
+
+Możesz określić, jaki rodzaj błędu ma zostać zgłoszony, oraz tekst, który ma zostać wydrukowany dla użytkownika.
+
+ W pierwszej kolejności wykonywana jest klauzula „try”
+ (wszystko pomiędzy „try” a „except”).
+–Jeśli, nie pojawi się żaden wyjątek, klauzula „except” jest
+pomijana. Wykonanie instrukcji „try” kończy się.
+–Jeśli, podczas wykonywania instrukcji „try” pojawi się wyjątek,
+ wykonywany jest kod zapisany w klauzuli „except”, a potem
+ interpreter przechodzi do wykonania wszystkiego w bloku
+ „try…except”.
